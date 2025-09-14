@@ -1,0 +1,20 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <!-- See https://www.nuget.org/packages/JetBrains.ReSharper.SDK -->
+    <!-- Keep in sync with ProductVersion in gradle.properties -->
+    <SdkVersion>2025.2.0</SdkVersion>
+
+    <Title>DevOpsTCPlugin</Title>
+    <Description>The action allows you to assign test information to the Associated Automation tab in Azure Test Case</Description>
+
+    <Authors>Krzysztof Rutana</Authors>
+    <Copyright>Copyright $([System.DateTime]::Now.Year) Maintainers of DevOpsTCPlugin</Copyright>
+    <PackageTags>resharper plugin</PackageTags>
+
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/license/MIT</PackageLicenseUrl>
+    <PackageIconUrl></PackageIconUrl>
+  </PropertyGroup>
+
+</Project>

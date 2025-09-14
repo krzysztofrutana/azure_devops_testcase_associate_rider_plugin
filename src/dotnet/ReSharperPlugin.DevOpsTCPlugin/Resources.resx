@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Assign a test to Azure Test Case
+</value>
+    </data>
+    <data name="Description" xml:space="preserve">
+        <value>The action allows you to assign test information to the Associated Automation tab in Azure Test Case
+</value>
+    </data>
+    <data name="NoPATMessage" xml:space="preserve">
+        <value>No token. Add the AZURE_DEVOPS_PAT environment variable with the token.
+</value>
+    </data>
+    <data name="IncorrectTest" xml:space="preserve">
+        <value>Incorrect test indicated
+</value>
+    </data>
+    <data name="Organization" xml:space="preserve">
+        <value>Organization</value>
+    </data>
+    <data name="ProjectInOrganization" xml:space="preserve">
+        <value>Project in the organization</value>
+    </data>
+    <data name="PathToTest" xml:space="preserve">
+        <value>Automated test name</value>
+    </data>
+    <data name="ProjectDll" xml:space="preserve">
+        <value>Automated test storage</value>
+    </data>
+    <data name="TestCaseAzureId" xml:space="preserve">
+        <value>Test Case Azure ID</value>
+    </data>
+    <data name="TestAlreadyAssigned" xml:space="preserve">
+        <value>Test Case already has the specified test assigned. I'm skipping it.
+</value>
+    </data>
+    <data name="TestCaseUpdated" xml:space="preserve">
+        <value>Test Case has been updated</value>
+    </data>
+    <data name="Error" xml:space="preserve">
+        <value>An error occurred</value>
+    </data>
+    <data name="OrganizationCannotBeEmpty" xml:space="preserve">
+        <value>Organization cannot be empty. Enter it manually or add it as an AZURE_DEVOPS_ORGANIZATION environment variable.
+</value>
+    </data>
+    <data name="OrganizationProjectCannotBeEmpty" xml:space="preserve">
+        <value>The organization project cannot be empty. Enter it manually or add it as an AZURE_DEVOPS_ORGANIZATION_PROJECT environment variable.
+</value>
+    </data>
+    <data name="TestCaseIdCannotBeEmpty" xml:space="preserve">
+        <value>You must provide a Test Case ID to assign a test to a TestCase.</value>
+    </data>
+    <data name="TestPathCannotBeEmpty" xml:space="preserve">
+        <value>The test path cannot be empty.
+</value>
+    </data>
+    <data name="ProjectDllCannotBeEmpty" xml:space="preserve">
+        <value>The DLL name of the project containing the test cannot be empty.</value>
+    </data>
+    <data name="TestType" xml:space="preserve">
+        <value>Automated test type</value>
+    </data>
+    <data name="AlreadyAssignedTC" xml:space="preserve">
+        <value>Already assigned test cases</value>
+    </data>
+    <data name="AssingButton" xml:space="preserve">
+        <value>Assing</value>
+    </data>
+    <data name="Close" xml:space="preserve">
+        <value>Close</value>
+    </data>
+    <data name="WorkitemNotFound" xml:space="preserve">
+        <value>No Test Case with the specified ID was found.
+</value>
+    </data>
+    <data name="AssignmentDialogTitle" xml:space="preserve">
+        <value>Assignment</value>
+    </data>
+    <data name="ConfirmAssignmentForTestCase" xml:space="preserve">
+        <value>Are you sure you want to assign the indicated test to the Test Case:</value>
+    </data>
+    <data name="PatLabel" xml:space="preserve">
+        <value>PAT</value>
+    </data>
+    <data name="OrganizationSettingsLabel" xml:space="preserve">
+        <value>Organization settings</value>
+    </data>
+    <data name="SaveSettingsForProject" xml:space="preserve">
+        <value>Save settings for project</value>
+    </data>
+    <data name="SettingsSaved" xml:space="preserve">
+        <value>Settings saved for project
+</value>
+    </data>
+    <data name="ShouldSelectCurrentTest" xml:space="preserve">
+        <value>Please select the specific test to be assigned
+</value>
+    </data>
+    <data name="ManageTokensTitle" xml:space="preserve">
+        <value>Manage tokens</value>
+    </data>
+    <data name="Solution" xml:space="preserve">
+        <value>Solution</value>
+    </data>
+    <data name="Add" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="Save" xml:space="preserve">
+        <value>Save</value>
+    </data>
+    <data name="Token" xml:space="preserve">
+        <value>Token:</value>
+    </data>
+    <data name="TokenIsRequired" xml:space="preserve">
+        <value>Token is required</value>
+    </data>
+    <data name="AllDataForTokenIsRequired" xml:space="preserve">
+        <value>All data for the token must be completed
+</value>
+    </data>
+    <data name="TestCaseIdLabel" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="TestCaseTitleLabel" xml:space="preserve">
+        <value>Title</value>
+    </data>
+    <data name="Delete" xml:space="preserve">
+        <value>Delete</value>
+    </data>
+    <data name="DeleteTokenConfirmationMessage" xml:space="preserve">
+        <value>Are you sure you want to delete the token:
+</value>
+    </data>
+    <data name="NoTokenSelected" xml:space="preserve">
+        <value>No token selected.</value>
+    </data>
+    <data name="Edit" xml:space="preserve">
+        <value>Edit</value>
+    </data>
+    <data name="SupportMyWork" xml:space="preserve">
+        <value>Do you like my work? Buy me a coffee :)
+</value>
+    </data>
+    <data name="LinkCopied" xml:space="preserve">
+        <value>Link copied to clipboard</value>
+    </data>
+    <data name="CheckTokenData" xml:space="preserve">
+        <value>Check token data</value>
+    </data>
+</root>

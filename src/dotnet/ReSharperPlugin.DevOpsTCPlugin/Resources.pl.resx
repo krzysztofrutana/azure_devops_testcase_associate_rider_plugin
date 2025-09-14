@@ -1,0 +1,149 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Title" xml:space="preserve">
+        <value>Przypisz test do Azure Test Case</value>
+    </data>
+    <data name="Description" xml:space="preserve">
+        <value>Akcja pozwala przypisać informacje o teście do zakładki Associated Automation w Azure Test Case</value>
+    </data>
+    <data name="NoPATMessage" xml:space="preserve">
+        <value>Brak tokenu. Dodaj zmienną środowiskową AZURE_DEVOPS_PAT z tokenem.</value>
+    </data>
+    <data name="IncorrectTest" xml:space="preserve">
+        <value>Wskazano nieprawidłowy test</value>
+    </data>
+    <data name="Organization" xml:space="preserve">
+        <value>Organizacja</value>
+    </data>
+    <data name="ProjectInOrganization" xml:space="preserve">
+        <value>Projekt w organizacji</value>
+    </data>
+    <data name="PathToTest" xml:space="preserve">
+        <value>Automated test name</value>
+    </data>
+    <data name="ProjectDll" xml:space="preserve">
+        <value>Automated test storage</value>
+    </data>
+    <data name="TestCaseAzureId" xml:space="preserve">
+        <value>Test Case ID w Azure</value>
+    </data>
+    <data name="TestAlreadyAssigned" xml:space="preserve">
+        <value>Test Case ma już przypisany wskazany test. Pomijam</value>
+    </data>
+    <data name="TestCaseUpdated" xml:space="preserve">
+        <value>Test Case został zaktualizowany</value>
+    </data>
+    <data name="Error" xml:space="preserve">
+        <value>Wystąpił błąd</value>
+    </data>
+    <data name="OrganizationCannotBeEmpty" xml:space="preserve">
+        <value>Organizacja nie może być pusta. Wprowadź ją ręcznie lub dodaj jako zmienna środowiskowa AZURE_DEVOPS_ORGANIZATION.</value>
+    </data>
+    <data name="OrganizationProjectCannotBeEmpty" xml:space="preserve">
+        <value>Projekt organizacji nie może być pusty. Wprowadź go ręcznie lub dodaj jako zmienną środowiskową AZURE_DEVOPS_ORGANIZATION_PROJECT.</value>
+    </data>
+    <data name="TestCaseIdCannotBeEmpty" xml:space="preserve">
+        <value>Należy podać ID Test Case w celu przypisania testu do TestCase.</value>
+    </data>
+    <data name="TestPathCannotBeEmpty" xml:space="preserve">
+        <value>Ścieżka do testu nie może być pusta.</value>
+    </data>
+    <data name="ProjectDllCannotBeEmpty" xml:space="preserve">
+        <value>Nazwa DLL projektu zawierającego test nie może być pusta.</value>
+    </data>
+    <data name="TestType" xml:space="preserve">
+        <value>Automated test type</value>
+    </data>
+    <data name="AlreadyAssignedTC" xml:space="preserve">
+        <value>Przypisane test cases</value>
+    </data>
+    <data name="AssingButton" xml:space="preserve">
+        <value>Przypisz</value>
+    </data>
+    <data name="Close" xml:space="preserve">
+        <value>Zamknij</value>
+    </data>
+    <data name="WorkitemNotFound" xml:space="preserve">
+        <value>Nie znaleziono Test Case o podanym ID.</value>
+    </data>
+    <data name="AssignmentDialogTitle" xml:space="preserve">
+        <value>Przypisywanie</value>
+    </data>
+    <data name="ConfirmAssignmentForTestCase" xml:space="preserve">
+        <value>Czy na pewno przypisać wskazany test do Test Case:</value>
+    </data>
+    <data name="PatLabel" xml:space="preserve">
+        <value>PAT</value>
+    </data>
+    <data name="OrganizationSettingsLabel" xml:space="preserve">
+        <value>Ustawienia organizacji</value>
+    </data>
+    <data name="SaveSettingsForProject" xml:space="preserve">
+        <value>Zapisz ustawienia dla projektu</value>
+    </data>
+    <data name="SettingsSaved" xml:space="preserve">
+        <value>Ustawienia zapisane pomyślnie dla projektu</value>
+    </data>
+    <data name="ShouldSelectCurrentTest" xml:space="preserve">
+        <value>Należy zaznaczyć konkretny test do przypisania </value>
+    </data>
+    <data name="ManageTokensTitle" xml:space="preserve">
+        <value>Zarządzanie tokenami</value>
+    </data>
+    <data name="Solution" xml:space="preserve">
+        <value>Solucja</value>
+    </data>
+    <data name="Add" xml:space="preserve">
+        <value>Dodaj</value>
+    </data>
+    <data name="Save" xml:space="preserve">
+        <value>Zapisz</value>
+    </data>
+    <data name="Token" xml:space="preserve">
+        <value>Token:</value>
+    </data>
+    <data name="TokenIsRequired" xml:space="preserve">
+        <value>Token jest wymagany</value>
+    </data>
+    <data name="AllDataForTokenIsRequired" xml:space="preserve">
+        <value>Należy uzupełnić wszystkie dane dla tokenu</value>
+    </data>
+    <data name="TestCaseIdLabel" xml:space="preserve">
+        <value>ID</value>
+    </data>
+    <data name="TestCaseTitleLabel" xml:space="preserve">
+        <value>Tytuł</value>
+    </data>
+    <data name="Delete" xml:space="preserve">
+        <value>Usuń</value>
+    </data>
+    <data name="DeleteTokenConfirmationMessage" xml:space="preserve">
+        <value>Czy jesteś pewny że chcesz usunąć token:</value>
+    </data>
+    <data name="NoTokenSelected" xml:space="preserve">
+        <value>Nie znaznaczono tokenu.</value>
+    </data>
+    <data name="Edit" xml:space="preserve">
+        <value>Edytuj</value>
+    </data>
+    <data name="SupportMyWork" xml:space="preserve">
+        <value>Podoba Ci się moja praca? Kup mi kawę :)</value>
+    </data>
+    <data name="LinkCopied" xml:space="preserve">
+        <value>Link skopiowany do schowka</value>
+    </data>
+    <data name="CheckTokenData" xml:space="preserve">
+        <value>Sprawdź dane tokenu</value>
+    </data>
+</root>
