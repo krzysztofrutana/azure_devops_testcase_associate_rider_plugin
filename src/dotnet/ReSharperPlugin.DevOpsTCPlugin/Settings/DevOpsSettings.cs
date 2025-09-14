@@ -23,6 +23,9 @@ public class DevOpsSettings
             if (_tokens == null)
             {
                 _tokens = JsonConvert.DeserializeObject<DevOpsToken[]>(TokensJson);
+                
+                if (_tokens== null)
+                    _tokens = new DevOpsToken[0];
             }
             
             return _tokens;
